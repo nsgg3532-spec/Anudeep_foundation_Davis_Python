@@ -1,0 +1,11 @@
+def check_even_odd(num):
+    if num % 2 == 0:
+        print("Number is Even")
+    else:
+        print("Number is Odd")
+
+# Taking input
+number = int(input("Enter a number: "))
+
+# Function call
+check_even_odd(number)
